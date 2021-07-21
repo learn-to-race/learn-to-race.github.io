@@ -1,0 +1,44 @@
+title:              Learn-to-Race Environment
+description:        Open-source reinforcement learning environment for autonomous racing.
+author:             Learn-to-Race Team
+baseurl:            ""
+url:                http://learn-to-race.org/
+logo:               /img/logo/carla-black-m.png
+default_background: /img/bg-post.jpg
+
+# Social Profiles
+cvc_page:          http://www.cvc.uab.es/
+intel_page:        https://www.intel.com/
+tri_page:          http://www.tri.global/
+futurewei_page:    https://www.futurewei.com/
+
+github_username:   learn-to-race
+
+social:
+  name: Learn-to-Race Framework
+  links:
+    - https://github.com/learn-to-race/l2r
+
+# Build settings
+markdown:          kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+jekyll-mentions:
+  base_url: https://github.com
+
+permalink:         pretty
+
+paginate:          100
+paginate_path:     "/posts/page:num/"
+
+collections:
+  team:
+    output: true
+    
+plugins:
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag

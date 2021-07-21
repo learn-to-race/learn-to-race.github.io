@@ -1,0 +1,42 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    {% if page.title %}
+      {% if page.title == "CARLA" %}
+        {{ page.title | escape }} Simulator
+      {% else %}
+        {{ page.title | escape }} - {{ site.title | escape }}
+      {% endif %}
+    {% else %}
+      {{ site.title | escape }}
+    {% endif %}
+  </title>
+
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="{{"/assets/vendor/bootstrap/css/bootstrap.min.css" | relative_url }}">
+
+  <link rel="stylesheet" href="{{"/assets/main.css" | relative_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+
+  <!-- CARLA preferences ###################################### -->
+  <link rel="shortcut icon" type="image/png" href="/img/logo/favicon.png"/>
+
+  <link href="/css/syntax.css" rel="stylesheet">
+  <link href="/css/last_news.css" rel="stylesheet">
+  {% if page.url contains 'services' %}
+  <link href="/css/services.css" rel="stylesheet">
+  {% endif %}
+
+  <script defer src="{{"/assets/vendor/font-awesome/fontawesome-all.js" | relative_url }}"></script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  <!-- ######################################################## -->
+
+  {% seo %}
+</head>
