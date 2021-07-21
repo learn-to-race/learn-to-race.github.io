@@ -1,6 +1,6 @@
 ---
 name_: Jean Oh
-description: Senior Systems Scientist in the Robotics Institute at Carnegie Mellon University
+description: Senior Systems Scientist, Computer Science
 portrait: img/team/researchers/jean_oh.png
 from: CMU
 page:
