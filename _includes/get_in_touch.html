@@ -1,0 +1,57 @@
+<!-- Home Post List -->
+
+<div class="last_news">
+
+  <h3>Get In Touch</h3>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <ul class="list-inline">
+        {% if site.github_username %}
+        <li class="list-inline-item">
+          <a target="_blank" style="text-decoration: none !important" href="https://github.com/{{ site.github_username }}">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </li>
+        {% endif %}
+        {% if site.twitter_username %}
+        <li class="list-inline-item">
+          <a target="_blank" style="text-decoration: none !important" href="https://twitter.com/{{ site.twitter_username }}">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+        </li>
+        {% endif %}
+        {% if site.discord_invite %}
+        <li class="list-inline-item">
+          <a target="_blank" style="text-decoration: none !important" href="https://discord.gg/{{ site.discord_invite }}">
+            <i class="fab fa-discord fa-2x"></i>
+          </a>
+        </li>
+        {% endif %}
+        {% if site.youtube_channel %}
+        <li class="list-inline-item">
+          <a target="_blank" style="text-decoration: none !important" href="https://www.youtube.com/channel/{{ site.youtube_channel }}">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+        </li>
+        {% endif %}
+        <li class="list-inline-item">
+          <a style="text-decoration: none !important" href="/contact">
+            <i class="fas fa-envelope fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+<div class="row"><div class="col-lg-12"><h6>Subscribe to our mailing list</h6></div></div>
+<a href="http://eepurl.com/dqA6s9" class="btn btn-secondary" title="Subscribe to our mailing list" style="text-decoration: none;">
+  <i class="fas fa-envelope"></i> Subscribe
+</a>
+
+<div class="row"><div class="col-lg-12"><h6>Visit the forum</h6></div></div>
+<a href="https://github.com/carla-simulator/carla/discussions" class="btn btn-secondary" title="Visit the forum" style="text-decoration: none;">
+  <i class="far fa-comment"></i> Forum
+</a>
+
+</div>
