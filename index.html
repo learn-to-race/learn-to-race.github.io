@@ -8,8 +8,9 @@ image: 'img/carla.jpg'
 ---
 
 <script>
-function toggleVis(y) {
-  var x = document.getElementById("bibtex1");
+function toggleVis(item) {
+  var y = item;
+  var x = document.getElementById(y);
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
