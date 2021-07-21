@@ -5,7 +5,7 @@ background: '/img/bg-about.jpg'
 ---
 
 <div class="team text-center">
-  {% assign teams = "researchers,developers,artists,former members" | split: ',' %}
+  {% assign teams = "researchers,developers,scientific_advisory,former_members" | split: ',' %}
   {% for team in teams%}
     <h2 class="text-center">
       {{ team | capitalize }}
@@ -17,8 +17,8 @@ background: '/img/bg-about.jpg'
           {% assign url = member.page %}
         {% else if member.github %}
           {% assign url = member.github %}
-        {% endif %}  
-        <a href="{{url}}">  
+        {% endif %}
+        <a href="{{url}}">
             <img src="/{{ member.portrait }}" alt="{{ member.name_ }}">
             <p class="text-center team_name">{{ member.name_ }}</p>
             <p class="text-center team_description">{{ member.description }}</p>
