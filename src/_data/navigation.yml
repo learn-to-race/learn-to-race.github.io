@@ -1,0 +1,93 @@
+
+challenge-nav:
+  - title:      Overview
+    children:
+      - title:  Overview
+        url:    /challenge.html#overview
+  - title:      Rules
+    children:
+      - title:  Action Space
+        url:    /challenge.html#action-space
+      - title:  Observation Space
+        url:    /challenge.html#observation-space
+  - title:      Evaluation
+    children:
+      - title:  Pre-Evaluation Stage
+        url:    /challenge.html#pre-evaluation-stage
+      - title:  Evaluation Stage
+        url:    /challenge.html#evaluation-stage
+      - title:  Submission Instructions
+        url:    /challenge.html#submission-instructions
+      - title:  Metrics
+        url:    /challenge.html#metrics
+
+header:
+  - titles:
+      # @start locale config
+      en      : &EN       About
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /about.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Speakers
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /speakers.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Schedule
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /schedule.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Challenge
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /challenge.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Papers
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /papers.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Organizers
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /organizers.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Sponsors
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /sponsors.html
