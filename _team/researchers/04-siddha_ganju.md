@@ -1,8 +1,8 @@
 ---
 name_: Siddha Ganju
 description:
-portrait: img/team/researchers/siddha_ganju.png
+portrait: /img/team/researchers/siddha_ganju.png
 from: NVIDIA
-page: 
+page:
 github:
 ---
