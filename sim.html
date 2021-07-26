@@ -1,83 +1,76 @@
 ---
-layout: home
-title: Learn-to-Race
-description: Open-source reinforcement learning environment for autonomous racing.
-getting_started: https://learn-to-race.readthedocs.io/en/latest/getting_started.html
-background: '/img/bg-index.jpg'
-image: 'img/carla.jpg'
+layout: default
+title: Simulator
 ---
 
-<h3>Introduction</h3>
-<p style="margin-top:0px;font-size:18px;">Learn-to-Race is an OpenAI gym compliant, multimodal control environment where agents learn how to race. Unlike many simplistic learning environments, ours is built around Arrival’s high-fidelity racing simulator featuring full software-in-the-loop (SIL), and even hardware-in-the-loop (HIL), simulation capabilities. This simulator has played a key role in bringing autonomous racing technology to real life in the Roborace series, the world’s first extreme competition of teams developing self-driving AI.</p>
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+{% else %}
+<header class="masthead" style="background-image: url('{{ site.default_background | prepend: site.baseurl | replace: '//', '/' }}')">
+{% endif %}
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-heading">
+          <h1>{{ page.title }}</h1>
+          {% if page.subtitle %}
+          <h2 class="subheading">{{ page.subtitle }}</h2>
+          {% endif %}
+          <span class="meta">
+            Posted by {{ page.author }} on {{ page.date | date: '%B %d, %Y' }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
-<h3 style="margin-bottom:15px;">Video</h3>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
 
-{% include youtube.html id="2c-KlQ8SFcc" %}
+      {{ content }}
 
+      <br>
 
-<h3>Highlighted features</h3>
-<ul>
-  <li><strong>Scalability via a server multi-client architecture</strong>: multiple clients in the same or in different nodes can control different actors.</li>
-  <li><strong>Flexible API</strong>: CARLA exposes a powerful API that allows users to control all aspects related to the simulation, including traffic generation, pedestrian behaviors, weathers, sensors, and much more. </li>
-  <li><strong>Autonomous Driving sensor suite</strong>: users can configure diverse sensor suites including LIDARs, multiple cameras, depth sensors and GPS among others.</li>
-	<li><strong>Fast simulation for planning and control</strong>: this mode disables rendering to offer a fast execution of traffic simulation and road behaviors for which graphics are not required.</li>
-	<li><strong>Maps generation</strong>: users can easily create their own maps following the <a href="http://www.opendrive.org/">OpenDrive</a> standard via tools like <a href="https://www.vectorzero.io/">RoadRunner</a>.</li>
-	<li><strong>Traffic scenarios simulation</strong>: our engine <a href="https://github.com/carla-simulator/scenario_runner">ScenarioRunner</a> allows users to define and execute different traffic situations based on modular behaviors.</li>
-	<li><strong>ROS integration</strong>: CARLA is provided with integration with <a href="http://www.ros.org/">ROS</a> via our <a href="https://github.com/carla-simulator/ros-bridge">ROS-bridge</a></li>
-	<li><strong>Autonomous Driving baselines</strong>: we provide Autonomous Driving baselines as runnable agents in CARLA, including an <a href="https://github.com/carla-simulator/carla-autoware">AutoWare</a> agent and a <a href="https://github.com/felipecode/coiltraine">Conditional Imitation Learning</a> agent.</li>
-</ul>
-<h3>CARLA Talks</h3>
-<p>The team creates some additional content for users, besides the docs. This is a great way to cover different subjects such as detailed explanations for a specific module, latest improvements in a feature, future work and much more.</p>
+      <div class="clearfix">
 
-<h5>May 2020</h5>
-<ul><strong>General</strong>
-<li>Art improvements: environment and rendering — <a href="https://youtu.be/ZZaHevsz8W8">video</a> | <a href="https://drive.google.com/file/d/1l9Ztaq0Q8fNN5YPU4-5vL13eZUwsQl5P/view?usp=sharing">slides</a></li>
-<li>Core implementations: synchrony, snapshots and landmarks — <a href="https://youtu.be/nyyTLmphqY4">video</a> | <a href="https://drive.google.com/file/d/1yaOwf1419qWZqE1gTSrrknsWOhawEWh_/view?usp=sharing">slides</a></li>
-<li>Data ingestion — <a href="https://youtu.be/mHiUUZ4xC9o">video</a> | <a href="https://drive.google.com/file/d/10uNBAMreKajYimIhwCqSYXjhfVs2bX31/view?usp=sharing">slides</a></li>
-<li>Pedestrians and their implementation — <a href="https://youtu.be/Uoz2ihDwaWA">video</a> | <a href="https://drive.google.com/file/d/1Tsosin7BLP1k558shtbzUdo2ZXVKy5CB/view?usp=sharing">slides</a></li>
-<li>Sensors in CARLA — <a href="https://youtu.be/T8qCSet8WK0">video</a> | <a href="https://drive.google.com/file/d/1UO8ZAIOp-1xaBzcFMfn_IoipycVkUo4q/view?usp=sharing">slides</a></li>
-</ul>
-<ul><strong>Modules</strong>
-<li>Improvements in the Traffic Manager — <a href="https://youtu.be/n9cufaJ17eA">video</a> | <a href="https://drive.google.com/file/d/1R9uNZ6pYHSZoEBxs2vYK7swiriKbbuxo/view?usp=sharing">slides</a></li>
-<li>Integration of autoware and ROS — <a href="https://youtu.be/ChIgcC2scwU">video</a> | <a href="https://drive.google.com/file/d/1uO6nBaFirrllb08OeqGAMVLApQ6EbgAt/view?usp=sharing">slides</a></li>
-<li>Introducing ScenarioRunner — <a href="https://youtu.be/dcnnNJowqzM">video</a> | <a href="https://drive.google.com/file/d/1zgoH_kLOfIw117FJGm2IVZZAIRw9U2Q0/view?usp=sharing">slides</a></li>
-<li>OpenSCENARIO support — <a href="https://drive.google.com/file/d/1g6ATxZRTWEdstiZwfBN1_T_x_WwZs0zE/view?usp=sharing">slides</a></li>
-</ul>
-<ul><strong>Features</strong>
-<li>Co-Simulations with SUMO and PTV-Vissim — <a href="https://youtu.be/PuFSbj1PU94">video</a> | <a href="https://drive.google.com/file/d/10DgMNUBqKqWBrdiwBiAIT4DdR9ObCquI/view?usp=sharing">slides</a></li>
-<li>Integration of RSS-lib — <a href="https://drive.google.com/file/d/1whREmrCv67fOMipgCk6kkiW4VPODig0A/view?usp=sharing">slides</a></li>
-<li>The External Sensor Interface (ESI) — <a href="https://youtu.be/5hXHPV9FIeY">video</a> | <a href="https://drive.google.com/file/d/1VWFaEoS12siW6NtQDUkm44BVO7tveRbJ/view?usp=sharing">slides</a></li>
-<li>The OpenDRIVE Standalone Mode — <a href="https://youtu.be/U25GhofVV1Q">video</a> | <a href="https://drive.google.com/file/d/1D5VsgfX7dmgPWn7UtDDid3-OdS1HI4pY/view?usp=sharing">slides</a></li>
-</ul>
+        {% if page.previous.url %}
+        <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
+        {% endif %}
+        {% if page.next.url %}
+        <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+        {% endif %}
 
-<div style="display: inline-grid; grid-gap: 25px;" class="grid-container">
-	<div style="grid-column: 1;">
-		<p><strong>Do you like the project? Star us on GitHub to support the project!</strong></p>
-	</div>
-	<div style="grid-column: 2; margin-top:25px;" >
-		<iframe src="https://ghbtns.com/github-btn.html?user=carla-simulator&repo=carla&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
-	</div>
-</div>
+      </div>
 
-<div class="container" style="margin-top:30px;margin-bottom:30px;">
-	<div class="row">
-    <div class="col-lg-4" style="padding:0;">
-			<h3>Paper</h3>
-			<a href="http://proceedings.mlr.press/v78/dosovitskiy17a/dosovitskiy17a.pdf">
-				<img src="/img/paper.png" alt="CARLA: An Open Urban Driving Simulator">
-			</a>
-		</div>
-		<div class="col-lg-8" style="padding:0;">
-			<h3>BiBTex</h3>
-			<div style="background:#EEE;margin:0px;padding:0px;">
-				<pre><code class="pre-scrollable" style="color:#333;font-size:12px;">@inproceedings{Dosovitskiy17,
-  title = { {CARLA}: {An} Open Urban Driving Simulator},
-  author = {Alexey Dosovitskiy and German Ros and Felipe Codevilla and Antonio Lopez and Vladlen Koltun},
-  booktitle = {Proceedings of the 1st Annual Conference on Robot Learning},
-  pages = {1--16},
-  year = {2017}
-}</code></pre>
-			</div>
-		</div>
-	</div>
+      {% if page.comments %}
+      <hr>
+      <div id="disqus_thread"></div>
+        <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION
+        *  BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. LEARN WHY
+        *  DEFINING THESE VARIABLES IS IMPORTANT:
+        *  https://disqus.com/admin/universalcode/#configuration-variables
+        */
+        var disqus_config = function () {
+          this.page.url = "{{ page.url | prepend: site.url }}";  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = "{{ page.title }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://carla-org.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      {% endif %}
+
+    </div>
+  </div>
 </div>
