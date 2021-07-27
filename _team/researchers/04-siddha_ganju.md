@@ -4,5 +4,5 @@ description:
 portrait: /img/team/researchers/siddha_ganju.png
 from: NVIDIA
 page: https://www.linkedin.com/in/sidgan/
-github:https://github.com/sidgan
+github: https://github.com/sidgan
 ---
