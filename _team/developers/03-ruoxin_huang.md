@@ -1,6 +1,6 @@
 ---
 name_: Ruoxin Huang
-description: Software Developer
+description: Software Developement
 portrait: /img/team/developers/ruoxin_huang.png
 from: CMU
 page:
