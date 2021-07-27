@@ -1,8 +1,8 @@
 ---
 name_: Jiayi Weng
-description:
+description: Software Developer
 portrait: /img/team/developers/jiayi_weng.png
 from: CMU
 page:
-github: 
+github:
 ---
