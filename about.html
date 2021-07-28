@@ -6,6 +6,7 @@ image: 'img/l2r.jpg'
 ---
 
 <div class="team text-center">
+    <div style="width:1000px;">
   {% assign teams = "researchers,developers,scientific advisory,former members" | split: ',' %}
   {% for team in teams%}
     <h2 class="text-center">
@@ -30,4 +31,5 @@ image: 'img/l2r.jpg'
       {% endif %}
     {% endfor %}
   {% endfor %}
+</div>
 </div>
