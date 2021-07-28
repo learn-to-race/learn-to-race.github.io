@@ -1,5 +1,5 @@
 ---
-name_: Ignacio Musetti
+name_: Ignacio Maronna Musetti
 description: Software Development
 portrait:
 from: CMU
