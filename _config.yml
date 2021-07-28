@@ -3,7 +3,7 @@ description:        Open-source reinforcement learning environment for autonomou
 author:             Learn-to-Race Team
 baseurl:            ""
 url:                http://learn-to-race.org/
-logo:               /img/logo/carla-black-m.png
+logo:               
 default_background: /img/bg-post.jpg
 
 # Social Profiles
