@@ -1,7 +1,7 @@
 ---
-name_: Shravya Bhat
-description: Software Development, Algorithms
-portrait: /img/team/developers/shravya_bhat.png
+name_: Abhinav Gupta
+description: Software Development
+portrait:
 from: CMU
 page:
 github:
