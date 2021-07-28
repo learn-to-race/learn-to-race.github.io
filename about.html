@@ -20,7 +20,9 @@ image: 'img/l2r.jpg'
           {% assign url = member.github %}
         {% endif %}
         <a href="{{url}}">
+            {% if member.portrait %}
             <img src="{{ member.portrait }}" alt="{{ member.name_ }}">
+            {% endif %}
             <p class="text-center team_name">{{ member.name_ }}</p>
             <p class="text-center team_description">{{ member.description }}</p>
             <p class="text-center team_from">{{ member.from }}</p>
