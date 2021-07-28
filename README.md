@@ -1,3 +1,3 @@
-# Static web for Learn-to-Race
+# Static website for Learn-to-Race
 
-Site based on [Clean Blog](https://github.com/BlackrockDigital/startbootstrap-clean-blog).
+Site based on [CARLA](https://github.com/carla-simulator/carla-simulator.github.io) and [Clean Blog](https://github.com/BlackrockDigital/startbootstrap-clean-blog).
