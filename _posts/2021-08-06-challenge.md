@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: false
-title:  "Learn-to-Race Workshop Announced"
-subtitle: "A high-speed, safe learning challenge for autonomous racing"
+title:  "Learn-to-Race Challenge Announced"
+subtitle: "Safety-aware Learning for Autonomous Racing"
 description: ""
 author: "@hermgerm29"
 date:   2021-08-06 10:00:00 +0002
