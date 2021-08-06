@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: false
-title:  "Learn-to-Race Challenge Announced"
+title:  "Learn-to-Race Challenges Announced"
 subtitle: "Safety-aware Learning for Autonomous Racing"
 description: ""
 author: "@hermgerm29"
