@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title:  "Learn-to-Race Challenges Announced"
-subtitle: "Safety-aware Learning for Autonomous Racing"
+subtitle: "Safety-aware Learning for Autonomous Driving"
 description: ""
 author: "@hermgerm29"
 date:   2021-08-06 10:00:00 +0002
