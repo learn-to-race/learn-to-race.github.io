@@ -11,5 +11,5 @@ background: '/img/posts/2019-12-11/Bann001.jpg'
 ---
 
 <div class="container" style="margin-top:30px;margin-bottom:30px;">
-    <p>Learn about the <a href="https://learn-to-race.org/learn-to-race-challenge/">challenege</a>.</p>
+    <p>Learn about the <a href="https://learn-to-race.org/learn-to-race-challenge/">challenge</a>.</p>
 </div>
