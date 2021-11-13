@@ -11,8 +11,7 @@ image: 'img/l2r.jpg'
     <h2 class="text-center">
       {{ team | capitalize }}
     </h2>
-    {% for i in range(len(site.team)) %}
-      {% assign member = site.team[-i] %}
+    {% for member in site.team %}
       {% assign member_team = member | relative_url | replace: '%20', ' ' | split:'/'%}
       {% if member_team[2] == team %}
         {% if member.page %}
