@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: false
-title:  "Learn-to-Race Autonomous Racing Virtual Challenge"
+title:  "Learn-to-Race presents: Autonomous Racing Virtual Challenge"
 subtitle: "Safety-aware Learning for Autonomous Driving"
 description: ""
 author: "@jonfranc"
