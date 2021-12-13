@@ -13,6 +13,4 @@ Learn-to-Race Challenge Launches Today!
 
 Want to challenge your autonomous agent in high-speed, Formula-style racing? Join us in the <a href="https://www.aicrowd.com/challenges/learn-to-race-autonomous-racing-virtual-challenge">Learn-to-Race Autonomous Racing Virtual Challenge</a>. Proudly organized by CMU and Arrival; generously hosted by AICrowd and sponsored by Amazon AWS.
 
-<div class="container" style="margin-top:30px;margin-bottom:30px;">
-    <p>Learn about the <a href="https://www.aicrowd.com/challenges/learn-to-race-autonomous-racing-virtual-challenge">challenge</a>.</p>
-</div>
+Learn about the <a href="https://www.aicrowd.com/challenges/learn-to-race-autonomous-racing-virtual-challenge">challenge</a>.
