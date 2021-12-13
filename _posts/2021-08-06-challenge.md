@@ -1,13 +1,12 @@
 ---
 layout: post
 comments: false
-title:  "Learn-to-Race Challenges Announced"
+title:  "Learn-to-Race Autonomous Racing Virtual Challenge"
 subtitle: "Safety-aware Learning for Autonomous Driving"
 description: ""
-author: "@hermgerm29"
-date:   2021-08-06 10:00:00 +0002
-image: 'img/carla.jpg'
-background: '/img/thruxton-overhead-1.png'
+author: "@jonfranc"
+date:   2021-12-07 10:00:00 +0002
+background: '/img/posts/2021-12-07/l2r_banner2.png'
 ---
 
 <div class="container" style="margin-top:30px;margin-bottom:30px;">
