@@ -10,5 +10,5 @@ background: '/img/posts/2021-12-07/l2r_banner2.png'
 ---
 
 <div class="container" style="margin-top:30px;margin-bottom:30px;">
-    <p>Learn about the <a href="https://learn-to-race.org/challenge/">challenge</a>.</p>
+    <p>Learn about the <a href="https://www.aicrowd.com/challenges/learn-to-race-autonomous-racing-virtual-challenge">challenge</a>.</p>
 </div>
