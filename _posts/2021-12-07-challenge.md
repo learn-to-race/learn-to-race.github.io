@@ -9,7 +9,7 @@ date:   2021-12-07 10:00:00 +0002
 background: '/img/posts/2021-12-07/l2r_banner2.png'
 ---
 
-Learn-to-Race Challenge Launches Today!
+The Learn-to-Race Challenge Launches Today!
 
 Want to challenge your autonomous agent in high-speed, Formula-style racing?
 
