@@ -3,7 +3,7 @@ description:        Open-source reinforcement learning environment for autonomou
 author:             Learn-to-Race Team
 baseurl:            ""
 url:                http://learn-to-race.org/
-logo:               
+logo:
 default_background: /img/bg-post.jpg
 
 # Social Profiles
@@ -12,6 +12,7 @@ arrival_page:        https://arrival.com/
 honda_page:        https://honda.com/
 
 github_username:   learn-to-race
+twitter_username:   learn2race
 
 social:
   name: Learn-to-Race Framework
