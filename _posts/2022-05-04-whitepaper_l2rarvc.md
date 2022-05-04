@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: false
-title:  "New White Paper posted: L2R Autonomous Racing Virtual Challenge"
-subtitle: "White Paper describes the inaugural instance of the Learn-to-Race Autonomous Racing Virtual Challenge."
-description: "White Paper describes the inaugural instance of the Learn-to-Race Autonomous Racing Virtual Challenge."
+title:  "New white paper posted: L2R Autonomous Racing Virtual Challenge"
+subtitle: "New white paper describes the inaugural instance of the Learn-to-Race Autonomous Racing Virtual Challenge."
+description: "New white paper describes the inaugural instance of the Learn-to-Race Autonomous Racing Virtual Challenge."
 author: "@jonfranc"
 date:   2022-05-04 17:56:58 +0004
 background: '/img/posts/2021-12-07/l2r_banner2.png'
