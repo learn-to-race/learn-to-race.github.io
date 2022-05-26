@@ -1,7 +1,7 @@
 ---
 name_: Ruoxin Huang
 description: Software Developement, Algorithms
-portrait: /img/team/developers/ruoxin_huang.png
+portrait:
 from: CMU
 page:
 github:
