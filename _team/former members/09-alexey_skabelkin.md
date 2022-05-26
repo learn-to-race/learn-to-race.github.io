@@ -1,7 +1,7 @@
 ---
 name_: Alexey Skabelkin
 description: Software Development, Simulation
-portrait: /img/team/empty.png
+portrait:
 from: Arrival
 page:
 github:

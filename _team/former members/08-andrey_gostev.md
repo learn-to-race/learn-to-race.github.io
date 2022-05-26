@@ -1,7 +1,7 @@
 ---
 name_: Andrey Gostev
 description: Software Development, Simulation
-portrait: /img/team/empty.png
+portrait:
 from: Arrival
 page:
 github:
