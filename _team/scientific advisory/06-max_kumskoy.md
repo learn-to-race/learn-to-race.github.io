@@ -1,6 +1,6 @@
 ---
 name_: Max Kumskoy
-description: Software, Simulation Lead
+description: Head of ADAS, Simulation Lead
 portrait: /img/team/empty.png
 from: Arrival
 page:
