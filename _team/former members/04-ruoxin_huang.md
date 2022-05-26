@@ -1,6 +1,6 @@
 ---
 name_: Ruoxin Huang
-description: Software Developement, Algorithms
+description: Algorithms
 portrait:
 from: CMU
 page:

@@ -1,6 +1,6 @@
 ---
 name_: Tanay Gangey
-description: Software Developement, Algorithms
+description: Software Development, Algorithms
 portrait: /img/team/empty.png
 from: CMU
 page:
